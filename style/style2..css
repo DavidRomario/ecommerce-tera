@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  width: 100%;
+}
+header {
+  background-color: rgb(189, 189, 241);
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+#divBusca {
+  padding: 0px;
+  background-color: #e0eeee;
+  border: solid 2px #5f9ea0;
+  border-radius: 10px;
+  width: 56%;
+  height: 35px;
+  margin-left: 50%;
+  transform: translatex(-50%);
+}
+
+#txtBusca {
+  background-color: transparent;
+  padding-left: 5px;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 89%;
+}
+
+#btnBusca {
+  border: none;
+  float: right;
+  height: 35px;
+  border-radius: 0 7px 7px 0;
+  width: 70px;
+  font-weight: bold;
+  background: #5f9ea0;
+}
+
+#divBusca img {
+  float: left;
+}
