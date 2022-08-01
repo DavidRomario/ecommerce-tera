@@ -43,3 +43,18 @@ header {
 #divBusca img {
   float: left;
 }
+
+.container img{
+  width: 500px;
+  height: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.descricao {
+  width: 50%;
+}
