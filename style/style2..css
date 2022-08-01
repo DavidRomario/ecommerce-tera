@@ -45,16 +45,24 @@ header {
 }
 
 .container img{
-  width: 500px;
-  height: 500px;
+  width: 900px;
+  height: 900px;
   max-width: 1200px;
-  margin: 0 auto;
-  float: left;
-  display: inline-block;
+  margin: auto;
+  float: left;  
   vertical-align: top;
+  padding: 5px;
 }
 
 
-.descricao {
-  width: 50%;
+.descricao {  
+  width: 900px;
+  height: 600px;  
+  text-transform: uppercase;  
+  margin: 100px;
+  float: right;
+}
+
+.preco {
+  font-size: 60px;
 }
