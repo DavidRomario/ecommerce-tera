@@ -15,11 +15,9 @@ header {
   background-color: #d60000;
   justify-content: space-around;
 }
-section {
-  margin: 100px;
-  padding: 22px;
-  display: flex;
-  justify-content: space-around;
+#home {
+  text-decoration: none;
+  color: black;
 }
 #divBusca {
   padding: 0px;
@@ -53,42 +51,26 @@ section {
 #divBusca img {
   float: left;
 }
-.name {
-  margin-top: 10px;
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-}
-.image {
-  width: 240px;
-  height: 240px;
-  border-radius: 10px;
-}
-
-.tenis-content {
-  display: flex;
-  flex-direction: column;
-  background-color: #db3d3d;
-  font-size: 19px;
-  font-family: sans-serif;
-  text-align: center;
-  padding: 6px;
-  border-radius: 10px;
-  border: 2px solid white;
-}
-
-.tenis-content:hover {
-  background-color: #d60000;
-}
-.align {
-  font-size: large;
-}
-
 #cart-icon {
   height: 30px;
   width: 30px;
 }
 
-p {
-  color: white;
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.img {
+  width: 20%;
+  border-radius: 10px;
+}
+
+.descricao {
+    width: 50%;
+    text-transform: uppercase;
+}
+
+.preco {
+  font-size: 60px;
 }

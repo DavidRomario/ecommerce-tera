@@ -1,20 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header> <header>
-    <h1>Titulo do site</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tenis Store</title>
+    <link rel="stylesheet" href="style/style3.css" />
+  </head>
+  <body>
+    <header>
+      <a id="home" href="./index.html">
+        <h1>Tenis Store</h1>
+      </a>
+      <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Buscar..." />
+        <button id="btnBusca">Buscar</button>
+      </div>
+      <div>
+        <a href="./carrinho.html">
+          <img id="cart-icon" src="./style/126510.png" alt="" srcset="" />
+        </a>
+      </div>
+    </header>
 
-    <div id="divBusca">
-      <input type="text" id="txtBusca" placeholder="Buscar..." />
-      <button id="btnBusca">Buscar</button>
+    <div class="product">
+      <img class="photo" src="style/38_2.webp" alt="" />
+      <h1>Tenis Nike</h1>
+      <p>R$ 599,99</p>
+      <div class="button">
+        <input type="text" value="1" />
+        <button>+</button>
+      </div>
     </div>
-  </header></header>
-    <p>carrinho</p>
-</body>
+    <div class="button2">
+      <button class="payment">Pagamento</button>
+    </div>
+  </body>
 </html>
