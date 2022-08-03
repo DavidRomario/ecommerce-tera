@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
-  background-color: #171515;
+  background-color: #ffffff;
   margin: 0px;
   width: 100%;
 }
 h1 {
-  font-family: sans-serif;
+  font-family: 'Open Sans';
+  color: #fff;
 }
 header {
   background-color: rgb(189, 189, 241);
@@ -12,7 +14,7 @@ header {
   height: 130px;
   display: flex;
   align-items: center;
-  background-color: #d60000;
+  background-color: #F22B00;
   justify-content: space-around;
 }
 #home {
@@ -59,10 +61,15 @@ header {
 .container {
     width: 50%;
     margin: auto;
+    background-color: #ffffff;
+    border: solid 10px black ;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
 }
 
 .img {
-  width: 20%;
+  width: 60%;
   border-radius: 10px;
 }
 
