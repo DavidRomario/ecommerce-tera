@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 body {
-  background-color: #171515;
+  background-color: #ffffff;
   margin: 0px;
   width: 100%;
 }
 h1 {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+#topo{
+  width: 100%;
+  height: 40px;
+  background-color: #B02B0E;
 }
 header {
   background-color: rgb(189, 189, 241);
@@ -12,12 +20,37 @@ header {
   height: 130px;
   display: flex;
   align-items: center;
-  background-color: #d60000;
+  background-color: #F22B00;
   justify-content: space-around;
+}
+#menu{
+  width: 100%;
+  height: 50px;
+  border: solid 2px #ffe9e4 ;
+  background-color: rgb(255, 255, 255);
+}
+
+#menu-content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin: 0px;
+  font-weight: bolder;
+  font-family: 'Open Sans';
+}
+ol{
+  margin-top: 5px;
 }
 #home {
   text-decoration: none;
-  color: black;
+}
+section {
+  margin: 100px;
+  padding: 22px;
+  display: flex;
+  justify-content: space-around;
 }
 #divBusca {
   padding: 0px;
@@ -43,7 +76,6 @@ header {
   height: 35px;
   border-radius: 0 7px 7px 0;
   width: 20%;
-  font-weight: bold;
   background: black;
   color: white;
 }
@@ -59,10 +91,15 @@ header {
 .container {
     width: 50%;
     margin: auto;
+    background-color: #ffffff;
+    border: solid 10px black ;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
 }
 
 .img {
-  width: 20%;
+  width: 60%;
   border-radius: 10px;
 }
 
