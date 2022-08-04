@@ -44,6 +44,9 @@ header {
 ol{
   margin-top: 5px;
 }
+#home {
+  text-decoration: none;
+}
 section {
   margin: 100px;
   padding: 22px;
