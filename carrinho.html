@@ -7,26 +7,34 @@
     <title>Tenis Store</title>
     <link rel="stylesheet" href="style/style3.css" />
   </head>
-  <body>
-    <header>
-      <a id="home" href="./index.html">
-        <h1>Tenis Store</h1>
+  <div id="topo"></div>
+  <header>
+    <a id="home" href="./index.html">
+      <h1>Tenis Store</h1>
+    </a>
+    <div id="divBusca">
+      <input type="text" id="txtBusca" placeholder="Buscar..." />
+      <button id="btnBusca">Buscar</button>
+    </div>
+    <div>
+      <a href="./carrinho.html">
+        <img id="cart-icon" src="./style/126510.png" alt="" srcset="" />
       </a>
-      <div id="divBusca">
-        <input type="text" id="txtBusca" placeholder="Buscar..." />
-        <button id="btnBusca">Buscar</button>
-      </div>
-      <div>
-        <a href="./carrinho.html">
-          <img id="cart-icon" src="./style/126510.png" alt="" srcset="" />
-        </a>
-      </div>
-    </header>
-
+    </div>
+  </header>
+  <div id="menu">
+    <li id="menu-content">
+      <ol>Todas as categorias</ol>
+      <ol>Ofertas</ol>
+      <ol>Mais vendidos</ol>
+      <ol>Outlet</ol>
+    </li>
+  </div>
+  <body>
     <div class="product">
       <img class="photo" src="style/38_2.webp" alt="" />
-      <h1>Tenis Nike</h1>
-      <p>R$ 599,99</p>
+      <h1 id="produto-nome">Tenis Nike Running</h1>
+      <p id="produto-preco">R$ 599,99</p>
       <div class="button">
         <input type="text" value="1" />
         <button>+</button>
