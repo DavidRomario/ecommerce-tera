@@ -1,45 +1,45 @@
 [
   {
     "id": 1,
-    "nome": "Pegasus 38",
+    "nome": "Tênis Nike Pegasus 38",
     "imagem": "https://www.velocita.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/3/8/38_2.jpg",
-    "valor": 599.99,
+    "valor": "R$ 599,99",
     "descricao": "",
-    "categoria": ""
+    "genero": "Masculino"
   },
   {
     "id": 2,
-    "nome": "aaa",
-    "imagem": "https://www.guiatenis.com/wp-content/uploads/2022/03/M_CW7356_003_V1_CT-e1646148083478-418x179.jpg",
-    "valor": 0,
+    "nome": "Tênis Nike Zoom Fly 4",
+    "imagem": "https://www.velocita.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/r/principal_1200x1200_-_2022-04-14t120239.554.png",
+    "valor": "R$ 1.099,99",
     "descricao": "",
-    "categoria": ""
+    "genero": "Masculino"
   
     
   },
   {
     "id": 3,
-    "nome": "aaaaa",
-    "imagem": "https://www.guiatenis.com/wp-content/uploads/2022/03/M_CW7356_003_V1_CT-e1646148083478-418x179.jpg",
-    "valor": 0,
+    "nome": "Tênis Adidas Solar Glide 5 Boost",
+    "imagem": "https://www.velocita.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/2/1200x1200_-_2022-03-22t112959.187.jpg",
+    "valor": "R$ 799,99",
     "descricao": "",
-    "categoria": ""
+    "genero": "Feminino"
   },
   {
     "id": 4,
-    "nome": "ada",
-    "imagem": "",
-    "valor": 0,
+    "nome": "Tênis Adidas Adizero Boston 9",
+    "imagem": "https://www.velocita.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/e/tenis-m-adidas-adizero-boston-9-eg4673-principal.jpg",
+    "valor": "R$ 699,99",
     "descricao": "",
-    "categoria": ""
+    "genero": "Masculino"
   },
   {
     "id": 5,
-    "nome": "",
-    "imagem": "",
-    "valor": 0,
+    "nome": "Tênis Asics Hyper Speed",
+    "imagem": "https://www.velocita.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/e/tenis-f-asics-hyper-speed-1012a899-400-principal.jpg",
+    "valor": " R$ 399,99",
     "descricao": "",
-    "categoria": ""
+    "genero": "Feminino"
   },
   {
     "id": 6,
@@ -59,6 +59,14 @@
   },
   {
     "id": 8,
+    "nome": "",
+    "imagem": "",
+    "valor": 0,
+    "descricao": "",
+    "categoria": ""
+  },
+  {
+    "id": 9,
     "nome": "",
     "imagem": "",
     "valor": 0,

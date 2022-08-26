@@ -89,32 +89,33 @@ section {flex-wrap: wrap;
   margin: 10 0 5px;
   color: black;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   text-align: left;
 }
 .image {
-  width: 240px;
-  height: 240px;
+  width: 210px;
+  height: 210px;
   border-radius: 10px;
 }
 
 .tenis-content {
+  width: 220px;
   margin: 0.6rem;
   display: flex;
   flex-direction: column;
   background-color: #f7f4f3;
-  font-size: 19px;
+  font-size: 17px;
   font-family: sans-serif;
   text-align: center;
-  padding: 6px;
+  padding: 5px 2px 2px 2px;
   border-radius: 10px;
   border: 2px solid black;
 }
 
 .genero {
   color: black;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: bold;
 }
 
@@ -122,7 +123,7 @@ section {flex-wrap: wrap;
   color: #2ae559;
   margin: 0 0 5px;
   text-align: left;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
 }
 
