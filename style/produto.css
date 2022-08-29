@@ -15,7 +15,6 @@ h1 {
   background-color: #b02b0e;
 }
 header {
-  background-color: rgb(189, 189, 241);
   width: 100%;
   height: 130px;
   display: flex;
@@ -23,26 +22,17 @@ header {
   background-color: #f22b00;
   justify-content: space-around;
 }
-#menu {
-  width: 100%;
-  height: 50px;
-  border-bottom: solid 2px #ffe9e4;
-  background-color: rgb(255, 255, 255);
-}
 
 #menu-content {
-  height: 100%;
-  width: 100%;
+  background-color: #f7f4f3;
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  font-size: 25px;
-  margin: 0px;
+  font-size: 20px;
   font-weight: bolder;
   font-family: "Open Sans";
 }
-ol {
-  margin-top: 5px;
-}
+
 #home {
   text-decoration: none;
 }
@@ -78,6 +68,7 @@ section {
   width: 20%;
   background: black;
   color: white;
+  font-weight: bold;
 }
 
 #divBusca img {
@@ -88,34 +79,9 @@ section {
   width: 30px;
 }
 
-/* .container {
-    width: 50%;
-    margin: auto;
-    background-color: #ffffff;
-    border: solid 2px black ;
-    border-radius: 10px;
-    padding: 40px;
-    box-sizing: border-box;
-}
-
-.img {
-  width: 60%;
-  border-radius: 10px;
-}
-
-.descricao {
-    width: 50%;
-    text-transform: uppercase;
-}
-
-.preco {
-  font-size: 60px;
-} */
-
 .product {
   margin: auto;
   font-size: 16px;
-
   height: 150px;
   flex-direction: column;
   display: flex;
@@ -127,8 +93,8 @@ section {
 
 .img {
   margin: auto;
-  height: 370px;
-  width: 370px;
+  height: 250%;
+  width: 75%;
 }
 .preço {
   font-family: "Open Sans", sans-serif;
@@ -137,14 +103,14 @@ section {
   margin: 5px 0px;
 }
 .descricao {
-  font-size: 14px;
+  font-size: 100%;
   font-family: "Open Sans";
   font-weight: bold;
   margin: 20px 0px;
 }
 .name {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 110%;
   font-family: "Open Sans";
   font-weight: bold;
   margin: 10px 0px;

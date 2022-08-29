@@ -77,8 +77,8 @@ function principal() {
 function montaHTMLcarrinho(nome, imagem, preco, id) {
    return `<div class="product">
       <img class="photo" src="${imagem}" alt="" />
-      <h1 id="produto-nome">"${nome}"</h1>
-      <p id="produto-preco">"${preco}"</p>
+      <h1 id="produto-nome">${nome}</h1>
+      <p id="produto-preco">${preco}</p>
       <div class="button">
         <input type="text" value="1" />
         <button>+</button>

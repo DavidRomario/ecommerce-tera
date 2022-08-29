@@ -15,7 +15,6 @@ h1 {
   background-color: #b02b0e;
 }
 header {
-  background-color: rgb(189, 189, 241);
   width: 100%;
   height: 130px;
   display: flex;
@@ -23,26 +22,17 @@ header {
   background-color: #f22b00;
   justify-content: space-around;
 }
-#menu {
-  width: 100%;
-  height: 50px;
-  border-bottom: solid 2px #ffe9e4;
-  background-color: rgb(255, 255, 255);
-}
 
 #menu-content {
-  height: 100%;
-  width: 100%;
+  background-color: #f7f4f3;
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  font-size: 25px;
-  margin: 0px;
+  font-size: 20px;
   font-weight: bolder;
   font-family: "Open Sans";
 }
-ol {
-  margin-top: 5px;
-}
+
 #home {
   text-decoration: none;
 }
@@ -82,6 +72,7 @@ section {
   width: 20%;
   background: black;
   color: white;
+  font-weight: bold;
 }
 
 #divBusca img {
@@ -95,14 +86,14 @@ section {
   font-weight: bold;
   text-align: left;
 }
-.image {
+.image { margin-top: 5px;
   width: 210px;
   height: 210px;
   border-radius: 10px;
 }
 
 .tenis-content {
-  width: 220px;
+  width: 235px;
   margin: 0.6rem;
   display: flex;
   flex-direction: column;

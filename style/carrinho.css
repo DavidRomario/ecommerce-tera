@@ -14,7 +14,6 @@ h1 {
   background-color: #B02B0E;
 }
 header {
-  background-color: rgb(189, 189, 241);
   width: 100%;
   height: 130px;
   display: flex;
@@ -22,26 +21,20 @@ header {
   background-color: #F22B00;
   justify-content: space-around;
 }
-#menu{
-  width: 100%;
-  height: 50px;
-  border-bottom: solid 2px #ffe9e4 ;
-  background-color: rgb(255, 255, 255);
+#produto-carrinho { margin-top: 70px;
+
 }
 
-#menu-content{
-  height: 100%;
-  width: 100%;
+#menu-content {
+  background-color: #f7f4f3;
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  font-size: 25px;
-  margin: 0px;
+  font-size: 20px;
   font-weight: bolder;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
-ol{
-  margin-top: 5px;
-}
+
 #home {
   text-decoration: none;
   color: black;
