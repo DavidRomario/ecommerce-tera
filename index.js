@@ -41,8 +41,17 @@ function principal() {
                      if (main !== null) {
                         if (idProduto != 'undefined' && parseInt(idProduto) == produto.id) {
                            main.innerHTML = montaHTMLproduto(produto.nome, produto.valor, produto.imagem, produto.descricao, produto.id);
-                        }
-                     } 
+                        } 
+                     }
+                     const carrinhoProduto = document.getElementById("produto-carrinho");
+                     if (carrinhoProduto !== null) {
+                         if (idProduto != 'undefined' && parseInt(idProduto) == produto.id) {
+                             carrinhoProduto.innerHTML = montaHTMLcarrinho(produto.nome, produto.imagem, produto.valor, produto.id);
+                             
+                         }
+                     }
+
+
                 });
             });
     }
@@ -56,12 +65,31 @@ function principal() {
       <p class="preço">${preco}</p>
       <p class="descricao">${descricao}</p>
       <div>
-        <a href="carrinho.html">
+        <a href="carrinho.html?carrinho=${id}">
           <button class="press">Adicionar ao carrinho</button>
         </a>
       </div>
     </div> `
     }
 }
+
+
+function montaHTMLcarrinho(nome, imagem, preco, id) {
+   return `<div class="product">
+      <img class="photo" src="${imagem}" alt="" />
+      <h1 id="produto-nome">"${nome}"</h1>
+      <p id="produto-preco">"${preco}"</p>
+      <div class="button">
+        <input type="text" value="1" />
+        <button>+</button>
+      </div>
+    </div>
+    <div class="button2">
+      <button class="payment">Pagamento</button>
+    </div>`
+
+}
+
+
 
 principal();
