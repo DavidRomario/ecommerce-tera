@@ -5,7 +5,7 @@ body {
   width: 100%;
 }
 h1 {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
@@ -86,7 +86,8 @@ section {
   font-weight: bold;
   text-align: left;
 }
-.image { margin-top: 5px;
+.image {
+  margin-top: 5px;
   width: 220px;
   height: 220px;
   border-radius: 10px;
@@ -142,4 +143,41 @@ p {
   margin: 0 0 5px;
   text-align: left;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .fi {max-width: 720;}
+
+}
+
+.f1 {     display: flex;
+    height: 200px;
+    background-color: #b02b0e;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-footer { display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  
+}
+
+.txt-center{text-align: center!important;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin: 16px;
+
+}
+.nav-item {
+  padding-right: 0.6rem;
+  padding-left: 0.6rem;
+}
+
+.f2 {
+  width: 720px;
+  height: 1px;
+  background-color: #f7f4f3;
 }
