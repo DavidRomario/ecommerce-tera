@@ -7,7 +7,7 @@ function principal() {
                 dadosJson.map(item => {
                     const section = document.querySelector("section");
                     if (section !== null) {
-                        section.innerHTML += montaHTMLhome(item.nome, item.valor, item.imagem, item.id, item.genero);
+                        section.innerHTML += montaHTMLhome(item.nome, item.valor, item.imagem, item.id, item.genero, item.parcela);
                     }
                 });
             });
@@ -15,7 +15,7 @@ function principal() {
 
     listagemDeProdutos(home)
 
-    function montaHTMLhome(nome, preco, imagem, id, genero) {
+    function montaHTMLhome(nome, preco, imagem, id, genero, parcela) {
         return ` <div class="tenis-content" id="${id}">
         <a href="./produto.html?produto=${id}">
           <img class="image" src="${imagem}" alt="" href="?produto=${id}" />
@@ -24,22 +24,23 @@ function principal() {
         <p class="genero">${genero}</p>
         <p class="frete">Frete Gratis</p>
         <p>${preco}</p>
-        <p class="parcelas">ou 3x de R$ 199,96</p>
+        <p class="parcelas">${parcela}</p>
       </div>`
     }
 
     function pegarProduto() {
-         const queryString = window.location.search;
+         const queryString = window.location.search; // pega o texto da url
          // método split que utiliza o separador = para retornar o que tem depois dele
-         const queryArray =  queryString.split("=");
-         const idProduto = queryArray[1];
+         const queryArray =  queryString.split("="); // retorna um array onde produto é o indice 0 e o ID indice 1
+         const idProduto = queryArray[1]; // acessa o ID pelo indice 1
         fetch('./dados/produtos.json')
             .then((resposta) => resposta.json())
             .then((dados) => {
                 dados.map((produto) => {
                      const main = document.querySelector("main");
                      if (main !== null) {
-                        if (idProduto != 'undefined' && parseInt(idProduto) == produto.id) {
+                        if (idProduto != 'undefined' && parseInt(idProduto) == produto.id)//verifica se tem produto na url e transforma string em numero 
+                        {
                            main.innerHTML = montaHTMLproduto(produto.nome, produto.valor, produto.imagem, produto.descricao, produto.id);
                         } 
                      }
