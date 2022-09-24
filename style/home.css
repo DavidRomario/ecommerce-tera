@@ -138,6 +138,11 @@ section {
   width: 30px;
 }
 
+#login-icon {
+  height: 30px;
+  width: 30px;
+}
+
 p {
   color: black;
   margin: 0 0 5px;
