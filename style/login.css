@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 body {
   background-color: #ffffff;
   margin: 0px;
   width: 100%;
 }
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 #h1-login {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #000;
 }
-#topo{
+#topo {
   width: 100%;
   height: 40px;
-  background-color: #B02B0E;
+  background-color: #b02b0e;
 }
 header {
   width: 100%;
   height: 130px;
   display: flex;
   align-items: center;
-  background-color: #F22B00;
+  background-color: #f22b00;
   justify-content: space-around;
 }
 .login {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
   align-items: center;
-  flex-direction: column; 
-  height: 500px;
+  flex-direction: column;
+  height: 800px;
 }
 .login-user-input {
   width: 300px;
@@ -154,43 +154,44 @@ header {
   background-color: rgb(255, 255, 255);
   color: green;
 }
-.button2 {margin-top: 6px;
+.button2 {
+  margin-top: 6px;
 }
-#produto-nome{
+#produto-nome {
   color: #000000;
   font-size: 19px;
 }
-#produto-preco{
-  font-family: 'Open Sans', sans-serif;
+#produto-preco {
+  font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 19px;
 }
 @media (min-width: 768px) {
-  .fi {max-width: 720;}
-
+  .fi {
+    max-width: 720;
+  }
 }
 
-.f1 {     display: flex;
-    height: 200px;
-    background-color: #b02b0e;
-    align-items: center;
-    justify-content: center;
-
+.f1 {
+  display: flex;
+  height: 200px;
+  background-color: #b02b0e;
+  align-items: center;
+  justify-content: center;
 }
 
-.list-footer { display: flex;
+.list-footer {
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
-  
 }
 
-.txt-center{
+.txt-center {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  text-align: center!important;
+  text-align: center !important;
   margin: auto;
-
 }
 .nav-item {
   font-family: Arial, Helvetica, sans-serif;
